@@ -3,15 +3,17 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Privacy Policy | TENNE GINZA</title>
-<meta name="description" content="Privacy policy for TENNE｜GINZA: how we handle and protect your personal information." />
-<link rel="canonical" href="https://www.tennespa.com/privacy.html" />
-<meta name="robots" content="noindex, follow" />
+<title>Contact Us | TENNE GINZA</title>
+<meta name="description" content="Contact TENNE｜GINZA with questions about reservations, treatments, or anything else before you book." />
+<link rel="canonical" href="https://www.tennespa.com/contact.html" />
 
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="TENNE｜GINZA" />
-<meta property="og:title" content="Privacy Policy | TENNE GINZA" />
-<meta property="og:url" content="https://www.tennespa.com/privacy.html" />
+<meta property="og:title" content="Contact Us | TENNE GINZA" />
+<meta property="og:description" content="Questions before you book? Reach out to TENNE｜GINZA." />
+<meta property="og:url" content="https://www.tennespa.com/contact.html" />
+<meta property="og:image" content="https://www.tennespa.com/og-image.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -101,9 +103,16 @@
   .measure-mark-light{color:var(--goldLight);}
   .measure-mark-light::before{background:var(--goldLight);}
 
-  a:focus-visible, button:focus-visible{ outline:2px solid var(--gold); outline-offset:3px; }
+  a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible{
+    outline:2px solid var(--gold); outline-offset:3px;
+  }
+  input, select, textarea{background:var(--ivory);}
+  input::placeholder, textarea::placeholder{color:#9AA79E;}
+
   .btn-primary{background:var(--taupe); color:var(--taupeLight); letter-spacing:.14em; border:1px solid var(--gold);}
   .btn-primary:hover{background:var(--gold); color:var(--charcoal); border-color:var(--gold);}
+  .btn-outline{border:1px solid var(--gold); color:var(--charcoal); letter-spacing:.14em;}
+  .btn-outline:hover{background:var(--gold); color:var(--charcoal);}
 
   #mobileMenu{transition:max-height .4s ease, opacity .3s ease;}
   ::selection{background:var(--goldLight); color:var(--charcoal);}
@@ -126,7 +135,7 @@
       <a href="treatments.html" class="hover:text-taupe transition-colors">Treatments</a>
       <a href="experience.html" class="hover:text-taupe transition-colors">Experience</a>
       <a href="faq.html" class="hover:text-taupe transition-colors">FAQ</a>
-      <a href="contact.html" class="hover:text-taupe transition-colors">Contact</a>
+      <a href="contact.html" class="text-taupe">Contact</a>
       <a href="https://book.squareup.com/appointments/kf125kpa4zmpmd/location/LRGW43TNHBW27/services" target="_blank" rel="noopener noreferrer" class="btn-primary px-5 py-2.5 text-[.72rem] uppercase tracking-[.14em]">Book Now</a>
     </nav>
 
@@ -144,7 +153,7 @@
       <a href="treatments.html" class="py-3.5 border-b border-line">Treatments</a>
       <a href="experience.html" class="py-3.5 border-b border-line">Experience</a>
       <a href="faq.html" class="py-3.5 border-b border-line">FAQ</a>
-      <a href="contact.html" class="py-3.5 border-b border-line">Contact</a>
+      <a href="contact.html" class="py-3.5 border-b border-line text-taupe">Contact</a>
       <a href="https://book.squareup.com/appointments/kf125kpa4zmpmd/location/LRGW43TNHBW27/services" target="_blank" rel="noopener noreferrer" class="py-4 text-center btn-primary mt-4 mb-5 text-[.72rem]">Book an Appointment</a>
     </nav>
   </div>
@@ -155,33 +164,83 @@
 <!-- ============ HERO ============ -->
 <section class="relative pt-16 md:pt-20 gold-dust bg-forest text-ivory">
   <div class="px-6 sm:px-10 lg:px-16 py-16 lg:py-20 max-w-3xl mx-auto text-center">
-    <p class="measure-mark measure-mark-light justify-center text-[.7rem] uppercase tracking-[.28em] mb-2">Policies</p>
-    <p class="jp jp-light text-[13px] mb-6">プライバシーポリシー</p>
-    <h1 class="font-serif text-3xl sm:text-4xl leading-tight">Privacy Policy</h1>
+    <p class="measure-mark measure-mark-light justify-center text-[.7rem] uppercase tracking-[.28em] mb-2">Get in Touch</p>
+    <p class="jp jp-light text-[13px] mb-6">お問い合わせ</p>
+    <h1 class="font-serif text-3xl sm:text-4xl leading-tight">Contact Us</h1>
   </div>
   <div class="flex justify-center pb-8">
     <div class="kintsugi-line"></div>
   </div>
 </section>
 
-<!-- ============ POLICY BODY ============ -->
-<section class="reveal px-6 sm:px-10 lg:px-16 py-16 lg:py-20 border-t border-line">
-  <div class="max-w-2xl mx-auto">
-    <p class="text-[16px] leading-[1.9] text-charcoal/85">
-      Your personal information — including your name, contact details, consultation notes, and payment information — is handled with strict care. It is used solely for providing our services, managing your reservation, and responding to inquiries, and is never used for any other purpose. We do not disclose or share your information with third parties, except where required by law.
+<!-- ============ CONTACT FORM ============ -->
+<section class="reveal px-6 sm:px-10 lg:px-16 py-16 lg:py-24 border-t border-line">
+  <div class="max-w-xl mx-auto">
+    <p class="text-[14.5px] leading-relaxed text-charcoal/75 text-center">
+      If you have any questions, feel free to reach out using the form below.
     </p>
-    <p class="jp text-[14px] leading-[1.9] mt-6">
-      お客様の個人情報（お名前、ご連絡先、カウンセリング情報、決済情報等）は厳重に管理し、サービス提供・ご予約の管理・お問い合わせ対応以外の目的で使用することはございません。第三者への開示・提供も法令に基づく場合を除き一切行いません。
+    <p class="jp text-[13px] leading-relaxed text-center mt-2">
+      ご質問やご不明点がございましたら、以下のフォームよりお気軽にお問い合わせください。
     </p>
-  </div>
-</section>
 
-<!-- ============ RELATED POLICIES ============ -->
-<section class="reveal px-6 sm:px-10 lg:px-16 py-14 border-t border-line text-center">
-  <div class="flex flex-wrap justify-center gap-x-10 gap-y-3 text-[.72rem] uppercase tracking-[.14em] text-taupe">
-    <a href="terms.html" class="hover:text-gold transition-colors">Terms &amp; Conditions</a>
-    <a href="cancellation.html" class="hover:text-gold transition-colors">Cancellation &amp; Late Arrival Policy</a>
-    <a href="index.html" class="hover:text-gold transition-colors">Back to Home</a>
+    <form id="contactForm" class="mt-12 space-y-6" novalidate>
+
+      <div>
+        <label for="fullName" class="block text-[.7rem] uppercase tracking-[.1em] text-charcoal/80 mb-2">Full Name <span class="jp text-[11px] normal-case tracking-normal">お名前</span> <span class="text-taupe">*</span></label>
+        <input id="fullName" name="fullName" type="text" required autocomplete="name"
+          class="w-full border-b border-line focus:border-charcoal py-2.5 text-[15px] outline-none transition-colors" />
+        <p class="err-msg hidden text-[12px] text-[#8a4b3a] mt-1.5">Please enter your full name.</p>
+      </div>
+
+      <div>
+        <label for="email" class="block text-[.7rem] uppercase tracking-[.1em] text-charcoal/80 mb-2">Email Address <span class="jp text-[11px] normal-case tracking-normal">メールアドレス</span> <span class="text-taupe">*</span></label>
+        <input id="email" name="email" type="email" required autocomplete="email"
+          class="w-full border-b border-line focus:border-charcoal py-2.5 text-[15px] outline-none transition-colors" />
+        <p class="err-msg hidden text-[12px] text-[#8a4b3a] mt-1.5">Please enter a valid email address.</p>
+      </div>
+
+      <div>
+        <label for="phone" class="block text-[.7rem] uppercase tracking-[.1em] text-charcoal/80 mb-2">Phone Number <span class="jp text-[11px] normal-case tracking-normal">電話番号</span></label>
+        <input id="phone" name="phone" type="tel" autocomplete="tel"
+          class="w-full border-b border-line focus:border-charcoal py-2.5 text-[15px] outline-none transition-colors" />
+      </div>
+
+      <div>
+        <label for="subject" class="block text-[.7rem] uppercase tracking-[.1em] text-charcoal/80 mb-2">Subject <span class="jp text-[11px] normal-case tracking-normal">お問い合わせ種類</span> <span class="text-taupe">*</span></label>
+        <select id="subject" name="subject" required
+          class="w-full border-b border-line focus:border-charcoal py-2.5 text-[15px] outline-none transition-colors">
+          <option value="" disabled selected>Please select</option>
+          <option value="About Reservation">About Reservation（ご予約について）</option>
+          <option value="Treatment Details">Treatment Details（施術内容について）</option>
+          <option value="Other">Other（その他）</option>
+        </select>
+        <p class="err-msg hidden text-[12px] text-[#8a4b3a] mt-1.5">Please select a subject.</p>
+      </div>
+
+      <div>
+        <label for="message" class="block text-[.7rem] uppercase tracking-[.1em] text-charcoal/80 mb-2">Message <span class="jp text-[11px] normal-case tracking-normal">お問い合わせ内容</span> <span class="text-taupe">*</span></label>
+        <textarea id="message" name="message" rows="6" required
+          class="w-full border border-line focus:border-charcoal p-3.5 text-[15px] outline-none transition-colors resize-none"></textarea>
+        <p class="err-msg hidden text-[12px] text-[#8a4b3a] mt-1.5">Please enter your message.</p>
+      </div>
+
+      <div class="pt-2">
+        <button type="submit" class="btn-primary px-10 py-4 text-[.74rem] uppercase tracking-[.16em] w-full sm:w-auto">Send</button>
+      </div>
+
+      <p class="text-[12px] text-charcoal/50 pt-1">Front-end only — connect this form to an email service (e.g. Formspree) or backend to receive messages. See the note in the page source for setup.</p>
+    </form>
+
+    <!-- Success state -->
+    <div id="successState" class="hidden">
+      <div class="border border-line bg-surface/60 p-9 sm:p-12 text-center">
+        <p class="measure-mark justify-center text-[.68rem] uppercase tracking-[.26em] mb-2">Message Sent</p>
+        <p class="jp text-[13px] mb-6">送信完了</p>
+        <h2 class="font-serif text-2xl sm:text-3xl text-charcoal mb-4">Thank you for reaching out.</h2>
+        <p class="text-[14px] leading-relaxed text-charcoal/75 max-w-md mx-auto">Your message has been sent. We'll get back to you as soon as possible.</p>
+        <p class="jp text-[12.5px] leading-relaxed mt-2">メッセージが送信されました。担当より追ってご連絡いたします。</p>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -228,6 +287,15 @@
   </div>
 </footer>
 
+<!--
+  FORM SETUP NOTE:
+  To receive submissions, either:
+  1) Formspree — add action="https://formspree.io/f/your-form-id" method="POST" to the <form> tag
+     above, remove the JS preventDefault below (or keep it and let Formspree's own fetch/redirect
+     handle it), and add name="_replyto" mapping if desired.
+  2) Any other backend — point the fetch() call below at your endpoint.
+-->
+
 <script>
   const menuBtn = document.getElementById('menuBtn');
   const mobileMenu = document.getElementById('mobileMenu');
@@ -256,6 +324,54 @@
   } else {
     revealEls.forEach(el => el.classList.add('is-visible'));
   }
+
+  // Contact form validation + submit
+  const form = document.getElementById('contactForm');
+  const successState = document.getElementById('successState');
+
+  function showError(field) {
+    const wrap = field.closest('div');
+    const msg = wrap ? wrap.querySelector('.err-msg') : null;
+    if (msg) msg.classList.remove('hidden');
+    field.classList.add('border-[#8a4b3a]');
+  }
+  function clearError(field) {
+    const wrap = field.closest('div');
+    const msg = wrap ? wrap.querySelector('.err-msg') : null;
+    if (msg) msg.classList.add('hidden');
+    field.classList.remove('border-[#8a4b3a]');
+  }
+  function isValidEmail(value) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value); }
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    let valid = true;
+
+    ['fullName', 'email', 'subject', 'message'].forEach(name => {
+      const field = form.elements[name];
+      if (!field.value.trim()) { showError(field); valid = false; }
+      else if (name === 'email' && !isValidEmail(field.value.trim())) { showError(field); valid = false; }
+      else { clearError(field); }
+    });
+
+    if (!valid) {
+      const firstError = form.querySelector('.border-\\[\\#8a4b3a\\]');
+      if (firstError) firstError.focus();
+      return;
+    }
+
+    // Front-end complete state — wire this up to Formspree or your own endpoint to actually send.
+    // Example (Formspree):
+    // fetch('https://formspree.io/f/your-form-id', {
+    //   method: 'POST',
+    //   headers: { 'Accept': 'application/json' },
+    //   body: new FormData(form)
+    // }).then(() => { /* show success */ });
+
+    form.classList.add('hidden');
+    successState.classList.remove('hidden');
+    successState.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  });
 </script>
 
 </body>
